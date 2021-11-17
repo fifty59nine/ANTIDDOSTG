@@ -1,3 +1,6 @@
 ANTIDDOSTG/__pycache__/
 .idea/
 ANTIDDOSTG/models/__pycache__/
+ANTIDDOSTG.egg-info/
+build/
+dist/
