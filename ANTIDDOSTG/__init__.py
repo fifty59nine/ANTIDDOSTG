@@ -1,4 +1,4 @@
 from . import models
 
 __all__ = ('models')
-__version__ = '1.0'
+__version__ = '1.1'

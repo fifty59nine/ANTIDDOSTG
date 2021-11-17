@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='ANTIDDOSTG',
-    version='1.0',
+    version='1.1',
     packages=['ANTIDDOSTG', 'ANTIDDOSTG.models'],
     url='https://github.com/fifty59nine/ANTIDDOSTG',
     license='Apache License 2.0',

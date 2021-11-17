@@ -1,4 +1,3 @@
-from aiogram.types import Message, callback_query
 from datetime import datetime, timedelta
 import time
 
@@ -15,7 +14,7 @@ class ANTIDDOSTG:
     def __init__(self, timeout=5):
         self.timeout = timeout
 
-    def ddos_message(self, message: Message):
+    def ddos_message(self, message):
         try:
             msg = self.messages_ddos[message.chat.id]
         except:
